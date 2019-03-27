@@ -1,0 +1,40 @@
+.contact-card-container {
+  display: flex;
+  flex-flow: row;
+  height: 5rem;
+  width: 13rem;
+  font-family: brandon_grotesque_regularRg sans-serif;
+  color: #b4bbc2;
+  margin: 1rem;
+  background-color: #ffffff;
+  box-shadow: 0 1px 9.9px 0.1px rgba(187, 185, 185, 0.27)
+}
+.contact-icon-container {
+  display: flex;
+  flex: 1.5;
+}
+.contact-info-container {
+  margin-left: 1.5rem;
+  display: flex;
+  flex: 2;
+  flex-flow: column nowrap;
+}
+
+.contact-icon {
+  margin: auto;
+  height: 53px;
+  width: 53px;
+  background-image: url("../../../assets/icons/profile.png");
+  border: 1px solid #ef4847;
+  border-radius: 50px;
+}
+.contact-name {
+  display: flex;
+  flex: 1;
+  flex-flow: column-reverse;
+}
+.contact-phone {
+  display: flex;
+  flex: 1;
+  flex-flow: column;
+}

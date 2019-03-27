@@ -8,13 +8,25 @@ import { HeaderComponent } from './components/header/header.component';
 import {HttpClientModule} from '@angular/common/http';
 import {MatCardModule, MatIconModule, MatToolbarModule} from '@angular/material';
 import { PipesComponent } from './components/miniGames/pipes/pipes.component';
+import { ResumeComponent } from './components/resume/resume.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { CodeTestComponent } from './components/code-test/code-test.component';
+import { CardBoardComponent } from './components/card-board/card-board.component';
+import { ContactCardComponent } from './components/contact-card/contact-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    PipesComponent
+    PipesComponent,
+    ResumeComponent,
+    FooterComponent,
+    ContactComponent,
+    CodeTestComponent,
+    CardBoardComponent,
+    ContactCardComponent
   ],
   imports: [
     MatToolbarModule,

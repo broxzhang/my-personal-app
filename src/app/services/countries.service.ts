@@ -19,8 +19,8 @@ export class CountriesService {
   } ));
   }
   public getStates(countryID: number): Observable<State[]> {
-    const states: State[] = [];
     return this.http.get<Country[]>(this.url).pipe(map((res: any) => {
+      const states: State[] = [];
       for ( let i = 0; i < res['states'].length; i++) {
         if (res['states'][i].countryId.toString() === countryID.toString()) {
           states.push(res['states'][i]);
